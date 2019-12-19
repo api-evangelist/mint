@@ -1,0 +1,50 @@
+{
+    "name": "Mint",
+    "description": "Manage your money and track your credit score with Mint. Now that's being good with your money. Sign up today!",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28313-www-mint-com.jpg",
+    "tags": [
+        "financial services",
+        "have api",
+        "no api found",
+        "services"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/mint\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Mint",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28313-www-mint-com.jpg",
+            "humanURL": "https:\/\/www.mint.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/mint-openapi.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/mint"
+        },
+        {
+            "type": "Email",
+            "url": "security@mint.com"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/mint"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/www.mint.com"
+        }
+    ]
+}
