@@ -1,8 +1,24 @@
 aid: mint
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mint.png
 name: Mint
-description: 'Mint is a company surfaced as a portfolio company of first-round-capital, uncork-capital
-  and added to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Mint was a personal finance, budgeting, and money-management product
+  originally built by Aaron Patzer and backed by First Round Capital and Uncork Capital
+  (then SoftTech VC) before its 2009 acquisition by Intuit. Intuit shut the standalone
+  Mint service down and reimagined its features (transaction review, spending tracking,
+  net-worth monitoring, account linking across 17,000+ financial institutions) inside
+  Credit Karma. Mint exposes no public developer API, developer portal, or API reference;
+  this profile is retained as a network company record. Sector: fintech.'
 url: https://raw.githubusercontent.com/api-evangelist/mint/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Fintech
+- Personal Finance
+- Budgeting
+- Money Management
+- Consumer
+- Intuit
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +47,10 @@ maintainers:
 common:
 - type: Website
   url: https://www.mint.com
+- type: DomainSecurity
+  url: security/mint-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
