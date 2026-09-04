@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://www.mint.com', status: 301, note: 'declared website redirects to https://mint.intuit.com/ — a different registrable domain (mint.com -> intuit.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mint.png
 name: Mint
 description: 'Mint was a personal finance, budgeting, and money-management product
